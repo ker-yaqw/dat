@@ -1,0 +1,38 @@
+html,
+body {
+	max-width: 1920px;
+	margin: 0 auto;
+	height: 100%;
+}
+body{
+	font-family: 'Montserrat', 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	background: #F8F8F8;
+	position: relative;
+}
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.main {
+	flex: 1 1 auto;
+}
+button,a{
+	font-style: normal;
+	transition: all 0.5s;
+	cursor: url('../../img/cursor.png'), auto;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+
+
+

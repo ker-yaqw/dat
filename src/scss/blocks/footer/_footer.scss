@@ -1,0 +1,162 @@
+.footer {
+  background: #ffffff;
+  &__container {
+    display: flex;
+    gap: 0 70px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 130px;
+    padding-bottom: 118px;
+  }
+}
+.footer-section {
+  &__description {
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    max-width: 220px;
+    margin-top: 15px;
+  }
+}
+.footer-section-logo {
+  &__icon {
+    max-width: 158px;
+    height: 71px;
+  }
+}
+.footer-section-nav {
+  &__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 26px;
+  }
+  &__link {
+    font-size: 18px;
+    line-height: 44px;
+    color: #000000;
+  }
+}
+.footer-section-contact {
+  &__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 16px;
+  }
+  &__telephone {
+    width: 260px;
+    padding-top: 10px;
+    position: relative;
+  }
+  &__telephone-link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+  }
+  &__telephone-link span {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    margin-top: 4px;
+    color: #84be51;
+  }
+  &__telephone-icon-arrow {
+    width: 10px;
+    height: 6px;
+  }
+  &__telephone-submenu {
+    display: none;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 0 0 20px 20px;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    right: 0;
+  }
+  &__telephone-submenu-link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    display: block;
+    text-align: center;
+  }
+  &__telephone-submenu-link + &__telephone-submenu-link {
+    padding-top: 10px;
+  }
+
+  //  footer-section-contact telefone hover
+
+  &__telephone:hover  {
+    background: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 20px 20px 0 0;
+    padding-top: 10px;
+  }
+  &__telephone:hover  &__telephone-icon-arrow {
+    transform: rotate(180deg);
+    transition: all 0.5s;
+  }
+  &__telephone:hover  &__telephone-submenu {
+    display: block;
+    transition: all 0.8s;
+  }
+  &__emai-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+  }
+  &__email-link {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+  &__telephone-icon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 6px;
+  }
+}
+.footer-bottom {
+  display: flex;
+  align-items:center;
+  gap: 0 60px;
+}
+.footer-bottom-copyright {
+  width: 100%;
+  padding-top: 17px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  &__text {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+  }
+}
+.footer-scroll-up {
+  display: block;
+  width: 65px;
+  height: 90px;
+  padding: 30px 24px;
+  background: #84c551;
+  border-radius:30px 30px 0 0;
+	cursor: url('../../img/cursor.png'), auto;
+  &__icon {
+    width: 20px;
+    height: 20px;
+  }
+}

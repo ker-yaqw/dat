@@ -1,0 +1,14 @@
+@import './base/base';
+@import './base/fonts';
+@import './base/reset';
+
+
+@import  './blocks/header/header';
+@import './blocks/footer/footer';
+@import './blocks/index/index';
+
+
+
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');

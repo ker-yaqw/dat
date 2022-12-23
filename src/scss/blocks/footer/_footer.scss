@@ -110,10 +110,19 @@
     display: block;
     transition: all 0.8s;
   }
-  &__emai-icon {
+  &__email-icon {
     width: 40px;
     height: 40px;
     margin-right: 6px;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 90px;
+    cursor: url('../../img/cursor.png'), auto;
+  }
+  &__email-icon:hover {
+    --color-mail: #fff;
+    background-color: #8D3200;
+    transition: all ease .3s;
   }
   &__email-link {
     display: flex;
@@ -128,6 +137,15 @@
     height: 40px;
     float: left;
     margin-right: 6px;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 90px;
+    cursor: url('../../img/cursor.png'), auto;
+  }
+  &__telephone-icon:hover {
+    --color-phone: #fff;
+      background-color: #8D3200;
+      transition: all ease .3s;
   }
 }
 .footer-bottom {

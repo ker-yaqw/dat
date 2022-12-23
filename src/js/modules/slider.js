@@ -6,10 +6,10 @@ const slider = () => {
         startAt: 0,
         perView: 4,
         perTouch: 3,
-        animationDuration: 1000,
         keyboard: true,
         hoverpause: true,
         gap: 30,
+        //animationDuration: 800,
         //autoplay: 3000,
     })
     

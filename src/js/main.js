@@ -1,12 +1,11 @@
-import slider from './modules/slider';
+import sliders from './modules/sliders';
 import scrolling from './modules/scrolling';
-import sliderCard from './modules/sliderCard';
-
+import slidersCard from './modules/slidersCard';
 
 window.addEventListener('DOMContentLoaded', () => {
     "use strict";
     
-    sliderCard();
-    slider();
+    slidersCard();
+    sliders();
     scrolling('.footer-scroll-up');
 });    

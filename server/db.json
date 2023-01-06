@@ -1,0 +1,52 @@
+{
+  "NewSliderCard": [
+    {
+      "src": "img/index/slider-img1.png",
+      "alt": "img",
+      "title": "Петунія Софістика F1",
+      "status": "В наявності",
+      "price": 20,
+      "amount":"1 шт",
+      "id": 1
+    },
+    {
+      "src": "img/index/slider-img2.png",
+      "alt": "img",
+      "title": "Скор 250 ЕС к.э.",
+      "status": "В наявності",
+      "price": 589,
+      "amount":"1 шт",
+      "id": 2
+    },
+    {
+      "src": "img/index/slider-img3.png",
+      "alt": "img",
+      "title": "Скор 250 ЕС к.э.",
+      "status": "В наявності",
+      "price": 200,
+      "amount":"1 шт",
+      "id": 3
+    },
+    {
+      "src": "img/index/slider-img4.png",
+      "alt": "img",
+      "title": "Петунія Софістика F1",
+      "status": "В наявності",
+      "price": 20,
+      "amount":"1 шт",
+      "id": 4
+    },
+    {
+      "src": "img/index/slider-img4.png",
+      "alt": "img",
+      "title": "Петунія Софістика F1",
+      "status": "В наявності",
+      "price": 20,
+      "amount":"1 шт",
+      "id": 5
+    }
+  ],
+  "requests": [
+      
+  ]
+}

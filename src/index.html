@@ -144,9 +144,9 @@
                 </div>
             </nav>
         </header>
-    
+        
         <main class="main main-page">
-            <div class="promo">
+        <div class="promo">
                 <div class="promo__inner">
                     <div class="promo-info">
                         <h1 class="promo-info__title">
@@ -181,7 +181,7 @@
                     </div>
                 </div>
             </div>
-
+ 
             <div class="news">
                 <h3 class="news__title">Новинки</h3>
                 <div class="news__container container">
@@ -192,19 +192,19 @@
                                 
                             </ul>
                         </div>
-                        <div class="news-slider-button" data-glide-el="controls">
-                            <button class="news-slider-button__prev" data-glide-dir="<">
+                        <div class="news-slider-button glide__arrows" data-glide-el="controls">
+                            <button class="news-slider-button__prev glide__arrow glide__arrow--left" data-glide-dir="<">
                                 <svg class="news-slider-button__prev-icon">
                                     <use xlink:href="/img/stack/sprite.svg#news-slider-arrowL"/>
                                 </svg>
                             </button>
-                            <button class="news-slider-button__next" data-glide-dir=">">
+                            <button class="news-slider-button__next glide__arrow glide__arrow--right" data-glide-dir=">">
                                 <svg class="news-slider-button__next-icon">
                                     <use xlink:href="/img/stack/sprite.svg#news-slider-arrowR"/>
                                 </svg>
                             </button>
                         </div>
-                        <div class="news-slider-bullets  glide__bullets" data-glide-el="controls[nav]">
+                        <div class="news-slider-bullets glide__bullets" data-glide-el="controls[nav]">
                             <button class="news-slider-bullets__item glide__bullet" data-glide-dir="=0"></button>
                             <button class="news-slider-bullets__item glide__bullet" data-glide-dir="=1"></button>
                             <button class="news-slider-bullets__item glide__bullet" data-glide-dir="=2"></button>
@@ -214,7 +214,71 @@
                     </div>
                 </div>
             </div>
+        
+            <div class="action action--bg">
+                <h3 class="action__title">Акції</h3>
+                <div class="action__container container">
+                    
+                    <div class="action-slider glide" id="action-slider">
+                        <div class="action-slider__wrapper glide__track" data-glide-el="track">
+                            <ul class="action-slider__list glide__slides">
+                                
+                            </ul>
+                        </div>
+                        <div class="action-slider-button glide__arrows" data-glide-el="controls">
+                            <button class="action-slider-button__prev glide__arrow glide__arrow--left" data-glide-dir="<">
+                                <svg class="action-slider-button__prev-icon">
+                                    <use xlink:href="/img/stack/sprite.svg#action-slider-arrowL"/>
+                                </svg>
+                            </button>
+                            <button class="action-slider-button__next glide__arrow glide__arrow--right" data-glide-dir=">">
+                                <svg class="action-slider-button__next-icon">
+                                    <use xlink:href="/img/stack/sprite.svg#action-slider-arrowR"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="action-slider-bullets glide__bullets" data-glide-el="controls[nav]">
+                            <button class="action-slider-bullets__item glide__bullet" data-glide-dir="=0"></button>
+                            <button class="action-slider-bullets__item glide__bullet" data-glide-dir="=1"></button>
+                            <button class="action-slider-bullets__item glide__bullet" data-glide-dir="=2"></button>
+                            <button class="action-slider-bullets__item glide__bullet" data-glide-dir="=3"></button>
+                            <button class="action-slider-bullets__item glide__bullet" data-glide-dir="=4"></button>
+                        </div>
+                    </div>
+                    <a class="action__link" href="#">Дивитися усі товари</a>
+                </div>
+            </div>
             
+            <div class="partner">
+                <h3 class="partner__title">Партнери</h3>
+                <div class="partner-slider glide" id="partner-slider">
+                    <div class="partner-slider__wrapper glide__track" data-glide-el="track">
+                        <ul class="partner-slider__list glide__slides">
+                            
+                        </ul>
+                    </div>
+                    <div class="partner-slider-button glide__arrows" data-glide-el="controls">
+                        <button class="partner-slider-button__prev glide__arrow glide__arrow--left" data-glide-dir="<">
+                            <svg class="partner-slider-button__prev-icon">
+                                <use xlink:href="/img/stack/sprite.svg#partner-slider-arrowL"/>
+                            </svg>
+                        </button>
+                        <button class="partner-slider-button__next glide__arrow glide__arrow--right" data-glide-dir=">">
+                            <svg class="partner-slider-button__next-icon">
+                                <use xlink:href="/img/stack/sprite.svg#partner-slider-arrowR"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="partner-slider-bullets glide__bullets" data-glide-el="controls[nav]">
+                        <button class="partner-slider-bullets__item glide__bullet" data-glide-dir="=0"></button>
+                        <button class="partner-slider-bullets__item glide__bullet" data-glide-dir="=1"></button>
+                        <button class="partner-slider-bullets__item glide__bullet" data-glide-dir="=2"></button>
+                        <button class="partner-slider-bullets__item glide__bullet" data-glide-dir="=3"></button>
+                        <button class="partner-slider-bullets__item glide__bullet" data-glide-dir="=4"></button>
+                    </div>
+                </div>
+            </div>
+
             <div class="banner">
                 <div class="banner__container container">
                     <div class="banner-info">

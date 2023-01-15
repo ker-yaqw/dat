@@ -169,6 +169,9 @@ function watch() {
   browsersync.init({
     server: {
       baseDir: "./dist",
+      serveStaticOptions: {
+        extensions:["html"]
+      }
     },
     port : 4000,
   })

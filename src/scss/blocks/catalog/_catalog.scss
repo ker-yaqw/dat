@@ -1,0 +1,106 @@
+.catalog-page {
+    
+    .catalog {
+        &__title {
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 55px;
+            color: #000;
+            max-width: 606px;
+            text-align: center;
+            margin: 0 auto;
+            position: relative;
+        }
+        &__title::before {
+            content: "";
+            background: url("../../../img/svg/leaflet.svg") center no-repeat;
+            background-size: cover;
+            width: 32px;
+            height: 25px;
+            position: absolute;
+            top: 16px;
+            left: 0;
+        }
+        &__title::after {
+            content: "";
+            background: url("../../../img/svg/leaflet.svg") center no-repeat;
+            background-size: cover;
+            width: 32px;
+            height: 25px;
+            position: absolute;
+            top: 16px;
+            right: 0;
+        }
+        &__wrapper {
+            margin-top: 36px;
+            margin-bottom: 124px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, (minmax(255px, 1fr)));
+            justify-items: center;
+            align-items: center;
+            gap: 27px 30px;
+        }
+    }
+    .catalog-item {
+        height: 162.5px;
+        position: relative;
+        cursor: url('../../img/cursor.png'), auto;
+        &__title {
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 47px;
+            text-align: center;
+            color: #000000;
+            width: 100%;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 2;
+            opacity: 1;
+        }
+    }
+    .catalog-item:hover .catalog-item__title {
+        opacity: 0;
+        transition: all .5s;
+    }
+
+    .banner {
+        background: url("../../../img/catalog/banner-bg.png") center no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        height: 500px;
+        padding-top: 110px;
+    }
+    .banner-info {
+        &__title {
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 55px;
+            color: #ffffff;
+            max-width: 574px;
+            text-align: right;
+            margin-bottom: 16px;
+            position: relative;
+        }
+        &__title::before {
+            content: "";
+            background: url("../../../img/svg/leaflet.svg") center no-repeat;
+            background-size: cover;
+            width: 32px;
+            height: 25px;
+            position: absolute;
+            top: 16px;
+            left: 0;
+        }
+        &__text {
+            font-size: 16px;
+            line-height: 20px;
+            max-width: 1110px;
+            color: #ffffff;
+        }
+    }
+}

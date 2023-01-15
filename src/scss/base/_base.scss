@@ -31,3 +31,42 @@ button,a{
   padding: 0 15px;
 }
 
+
+.breadcrumb {
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	margin-top: 249px;
+	margin-bottom: 9px;
+	&__list {
+		position: relative;
+	}
+	&__list + &__list::before {
+		content: '';
+		margin: 0 12px;	
+	}
+	&__list + &__list::after {
+		content: '';
+		width: 6px;
+		height: 6px;
+		padding: 3px;
+		background: url('../../img/svg/breadcrumb-img.svg') no-repeat center;
+		background-size:cover;
+		position: absolute;	
+		top: 9px;
+		left: 8px;
+	}
+	&__link {
+		font-size: 18px;
+		line-height: 22px;
+		text-align: center;
+		color: rgba(0, 0, 0, 0.5);
+	}
+	&__list span {
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 22px;
+		text-align: center;
+		color: rgba(0, 0, 0, 0.5);
+	}
+}

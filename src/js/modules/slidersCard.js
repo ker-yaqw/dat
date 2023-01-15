@@ -61,34 +61,36 @@ const slidersCard = () => {
             }
     
             render() {
-                const element = document.createElement('li');
-                      element.classList.add('news-slider-item', 'glide__slide');
+                try {
+                    const element = document.createElement('li');
+                    element.classList.add('news-slider-item', 'glide__slide');
                     
                     element.innerHTML = `
-                    <svg class="news-slider-item__icon">
-                        <use xlink:href="/img/stack/sprite.svg#slider-compare"/>
-                    </svg>
-                    <a class="news-slider-item__link" href="#">
-                        <img class="news-slider-item__image" src=${this.src} alt=${this.alt}>
-                    </a>
-                    <div class="news-slider-item__content">
-                        <a class="news-slider-item__content-link" href="#">
-                            <div class="news-slider-item__content-title">${this.title}</div>
+                        <svg class="news-slider-item__icon">
+                            <use xlink:href="/img/stack/sprite.svg#slider-compare"/>
+                        </svg>
+                        <a class="news-slider-item__link" href="#">
+                            <img class="news-slider-item__image" src=${this.src} alt=${this.alt}>
                         </a>
-                        <p class="news-slider-item__content-status">${this.status}</p>
-                        <div class="news-slider-item__content-wrapper">
-                            <div class="news-slider-item__content-inner">
-                                <span class="news-slider-item__content-value">${this.price}</span>
-                                <span class="news-slider-item__content-currency">грн</span>
-                                <span class="news-slider-item__content-amount">${this.amount}</span>
+                        <div class="news-slider-item__content">
+                            <a class="news-slider-item__content-link" href="#">
+                                <div class="news-slider-item__content-title">${this.title}</div>
+                            </a>
+                            <p class="news-slider-item__content-status">${this.status}</p>
+                            <div class="news-slider-item__content-wrapper">
+                                <div class="news-slider-item__content-inner">
+                                    <span class="news-slider-item__content-value">${this.price}</span>
+                                    <span class="news-slider-item__content-currency">грн</span>
+                                    <span class="news-slider-item__content-amount">${this.amount}</span>
+                                </div>
+                                <svg class="news-slider-item__content-icon">
+                                    <use xlink:href="/img/stack/sprite.svg#cart"/>
+                                </svg>
                             </div>
-                            <svg class="news-slider-item__content-icon">
-                                <use xlink:href="/img/stack/sprite.svg#cart"/>
-                            </svg>
-                        </div>
-                    </div>                                
-                `   ;
-                this.parent.append(element);
+                        </div>                                
+                    `   ;
+                    this.parent.append(element);
+                }catch(e){}
             }
         }
 
@@ -105,34 +107,36 @@ const slidersCard = () => {
             }
     
             render() {
-                const element = document.createElement('li');
-                      element.classList.add('action-slider-item', 'glide__slide');
+                try {
+                    const element = document.createElement('li');
+                          element.classList.add('action-slider-item', 'glide__slide');
                     
                     element.innerHTML = `
-                    <svg class="action-slider-item__icon">
-                        <use xlink:href="/img/stack/sprite.svg#slider-compare"/>
-                    </svg>
-                    <a class="action-slider-item__link" href="#">
-                        <img class="action-slider-item__image" src=${this.src} alt=${this.alt}>
-                    </a>
-                    <div class="action-slider-item__content">
-                        <a class="action-slider-item__content-link" href="#">
-                            <div class="action-slider-item__content-title">${this.title}</div>
+                        <svg class="action-slider-item__icon">
+                            <use xlink:href="/img/stack/sprite.svg#slider-compare"/>
+                        </svg>
+                        <a class="action-slider-item__link" href="#">
+                            <img class="action-slider-item__image" src=${this.src} alt=${this.alt}>
                         </a>
-                        <p class="action-slider-item__content-status">${this.status}</p>
-                        <div class="action-slider-item__content-wrapper">
-                            <div class="action-slider-item__content-inner">
-                                <span class="action-slider-item__content-value">${this.price}</span>
-                                <span class="action-slider-item__content-currency">грн</span>
-                                <span class="action-slider-item__content-amount">${this.amount}</span>
+                        <div class="action-slider-item__content">
+                            <a class="action-slider-item__content-link" href="#">
+                                <div class="action-slider-item__content-title">${this.title}</div>
+                            </a>
+                            <p class="action-slider-item__content-status">${this.status}</p>
+                            <div class="action-slider-item__content-wrapper">
+                                <div class="action-slider-item__content-inner">
+                                    <span class="action-slider-item__content-value">${this.price}</span>
+                                    <span class="action-slider-item__content-currency">грн</span>
+                                    <span class="action-slider-item__content-amount">${this.amount}</span>
+                                </div>
+                                <svg class="action-slider-item__content-icon">
+                                    <use xlink:href="/img/stack/sprite.svg#cart"/>
+                                </svg>
                             </div>
-                            <svg class="action-slider-item__content-icon">
-                                <use xlink:href="/img/stack/sprite.svg#cart"/>
-                            </svg>
-                        </div>
-                    </div>                                
-                `   ;
-                this.parent.append(element);
+                        </div>                                
+                    `   ;
+                    this.parent.append(element);
+                }catch(e){}
             }
         }
 
@@ -145,10 +149,12 @@ const slidersCard = () => {
             }
     
             render() {
-                const element = document.createElement('li');
+                try {
+                    const element = document.createElement('li');
                       element.classList.add('partner-slider-item', 'glide__slide');
                       element.innerHTML = `<img class="partner-slider-item__image" src=${this.src} alt=${this.alt}>`;
                     this.parent.append(element);
+                }catch(e){}
             }
         }
 
